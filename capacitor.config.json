@@ -1,0 +1,7 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "SelfElite",
+	"webDir": "build",
+	"npmClient": "npm",
+	"bundledWebRuntime": false
+}

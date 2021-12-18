@@ -1,0 +1,62 @@
+.containerStyle::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background-image: url(../images/big-brain-no-back[2536].png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top;
+    opacity: 25%;
+    z-index: -1000;
+}
+
+.headerStyle {
+    display: flex;
+    align-items: center;
+    height: 150px!important;
+    width: 100%;
+    justify-content: center;
+}
+
+.header-img {
+    width: 100%;
+    height: 175px;
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+}
+.header-img img {
+    display: block;
+    width: 100%;
+    object-fit: cover;
+}
+
+.contentBg {
+    background: #f8f8f8;
+}
+.contentStyle {
+    flex-grow: 1;
+    padding: 1rem;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+.loginInput {
+    border-color: #838383 !important;
+    border-style: solid!important;
+    border-width: thin!important;
+    border-radius: 6px!important;
+}
+.loginBtn {
+    --background: #8400f5;
+    --background-activated: #6e00cb;
+}
+
+@media (prefers-color-scheme: dark) {
+    .loginInput {
+        border-color: #101010!important;
+    }
+    .contentBg {
+        background: #151515 !important;
+    }
+}
